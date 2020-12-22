@@ -1,0 +1,62 @@
+body{
+    height: 100%;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+a.nav-link, a.navbar-brand{
+    color: white;
+    font-family: 'Russo One', sans-serif;
+    margin-top: 20px;
+}
+
+a.nav-link:hover{
+    /* 0083FF  azul claro*/
+    color: #0083FF;
+
+    transition: 0.5s;
+}
+
+.bg{
+    background: #222222;
+    color: white;
+}
+
+div.banner{
+    height: 912.5px;
+    color: white;
+    background:#222222;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.txt1, .txt2{
+    font-family: 'Russo One', sans-serif;
+}
+
+.txt1{
+    position: relative;
+    top: 20px;
+}
+
+.txt2{
+    font-size: 150px;
+}
+
+.risk{
+    margin-left: 20rem;
+    color: white;
+    width: 50%;
+}
+
+.tabela{
+    margin-top: 50px!important;
+}
+
+.ultimo{
+    margin-bottom: 1000px!important;
+}
